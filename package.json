@@ -1,5 +1,5 @@
 {
-  "name": "angular_helloworld",
+  "name": "angular_crud",
   "version": "1.0.0",
   "scripts": {
     "tsc": "tsc",

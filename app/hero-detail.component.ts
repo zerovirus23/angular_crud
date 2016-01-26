@@ -1,4 +1,5 @@
 import {Component} from 'angular2/core';
+import {HeroService} from './hero.service';
 import {Hero} from './hero';
 
 @Component({
@@ -18,4 +19,6 @@ import {Hero} from './hero';
 
 export class HeroDetailComponent {
   public hero : Hero;
+
+  constructor(private _heroService: HeroService) { }
 }
